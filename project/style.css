@@ -1,0 +1,83 @@
+*{
+	margin:0px;
+	padding: 0px; 
+}
+
+
+body{
+	opacity: 0.7;
+	background-image:url('back.jpg');
+	background-size: cover;
+	background-position: right;
+
+}
+
+
+
+.main{
+	width: 35%;
+	margin: 50px auto 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px; 
+	background-color: lightsteelblue ;
+	padding:20px;
+}
+
+header h3{
+	padding-top: 15px;
+	font-family: Arial;
+	color: rgb(0, 0, 0);
+
+}
+
+form{
+	
+	width: 35%;
+	margin: auto;
+	text-align: center;
+	background-color: whitesmoke ;
+	color:rgb(0, 0, 0) ;
+	padding:20px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+
+.inp{
+	margin: 10px 0px 10px 0px;
+}
+
+
+
+.inp label{
+	padding: 10px;
+	display: block;
+	font-family: monospace;
+	text-align: left;
+	font-size: 25px;
+
+
+}
+
+
+
+.inp input{
+	height: 20px;
+	width: 95%;
+	padding : 5px 10px;
+	border-radius: 10px;
+	border: 1px solid rgb(0, 0, 0);
+	font-size: 20px ;
+}
+
+
+.inp button{
+	width: 120px;
+	margin: 5px;
+	padding: 15px;
+	background-color: lightsteelblue;
+	color: rgb(0, 0, 0);
+	font-size: medium;
+	border-radius: 10px;
+	float: center;
+
+}

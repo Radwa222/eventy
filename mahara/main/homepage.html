@@ -1,0 +1,37 @@
+<html>
+  <head>
+  <title>home page</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <h1>welcom  our customer </h1>
+   <p> we are a event planner ............... elc</p>
+
+   <p>please tell me your price  </p>
+   <div class="range">
+       <div class="slidervalue">
+           <span>100</span>
+       </div>
+       <div class="field">
+           <div class="value left">0</div>
+            <input type="range" main="0" max="200" value="100" steps="1">
+           <div class="value right">200</div>
+       </div>
+   </div>
+   <script>
+    alert("Hello"); 
+     const slidevalue= document.querySelector("span");
+     const inputlider= document.querySelector("input");  
+     inputlider.oninput =(()=>{
+         let value = inputlider.value;
+         slidevalue.textContent= value;
+         slidevalue.style.left =(value/2) + "%";
+         slidevalue.classList.add("show");
+
+    });
+   </script>
+   
+   
+  </body>
+</html>
+
